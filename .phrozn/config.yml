@@ -1,6 +1,6 @@
 --- # Site configuration
 entries:
-    layout: base.twig
+    layout: base.html.twig
 
 # Files to skip - list of preg expressions is expected
 # I shouldnt have any of these files anyway...
