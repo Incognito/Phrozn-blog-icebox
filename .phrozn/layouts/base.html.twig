@@ -16,9 +16,9 @@
 <body>
   {% block body %}{% endblock body %}
 
-  {% block javascripts %}{% endblock javascripts %}
+  {% block javascripts %}{{ content }}{% endblock javascripts %}
 
-  {% include 'IncognitoBlogBlogBundle:Main:adsense.html.twig' %}
+  {# include 'adsense.html.twig' #}
 
   </body>
 </html>
